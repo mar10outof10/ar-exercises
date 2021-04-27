@@ -8,4 +8,4 @@ puts "----------"
 @store1 = Store.first
 @store2 = Store.find_by(id: 2)
 @store1.update(name: "Jim's store")
-puts @store1.name
+puts "Store 1 name: #{@store1.name}"
